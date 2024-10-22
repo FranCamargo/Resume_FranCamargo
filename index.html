@@ -17,7 +17,7 @@
         .caixa {
             background-color: rgba(255, 255, 255, 0.2);
             /* Fundo branco com 20% de opacidade */
-            padding: 50px;
+            padding: 40px;
             /* Espaçamento interno */
             border-radius: 20px;
             /* Cantos arredondados */
@@ -27,29 +27,54 @@
             /* Faz a caixa se ajustar ao tamanho do texto */
 
         }
+
         footer {
-            margin-top: 20px; /* Espaço acima do rodapé */
-            text-align: left; /* Alinha o texto do rodapé ao centro */
+            margin-top: 20px;
+            /* Espaço acima do rodapé */
+            text-align: left;
+            /* Alinha o texto do rodapé ao centro */
         }
+        .button {
+    background-color: #9e4caf3a; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 4px 8px; /* Espaciamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Para alinhar corretamente */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Sem borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: all 0.5s ease; /* Efeito de transição suave */
+}
+
+.button:hover {
+    background-color: #743b80; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2), 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+    transform: translateY(-2px); /* Move o botão levemente para cima */
+}
     </style>
 </head>
 
 <body>
     <main>
         <div class="caixa">
-            <h1><b>Franciely Camargo</b></h1>
+            <h1><b><span style="font-family: Georgia, 'Times New Roman', Times, serif">Franciely Camargo</span></b></h1>
             <p>
-                <b>Idade:</b> 30 anos <br>
-                <b>Estado Civil:</b> Solteira<br>
-                <b>Email: </b> francamargoads@gmail.com<br>
-                <b>Github Profile: </b><a href=https://github.com/FranCamargo>Link</a> <br>
+                <div class="button"><a href="mailto:francamargoads@gmail.com?subject=Contato&body=Escreva sua mensagem."><span style="color:rgb(255, 255, 255)">Email</span></a></div>
+                <div class="button"><a href=https://github.com/FranCamargo><span style="color:rgb(255, 255, 255)">Github Profile</span></a></div> <br>
 
             <h3><b><u>Formação Educacional</u></b></h3>
-            2024 - Pós-graduação em Gestão em Tecnologia - Uniasselvi <br>
-            2022 - MBA em Project Management - Uniasselvi <br>
-            2021 - Graduação em Comércio Exterior - Unisociesc<br>
-            2019 - Bacharelado em Análise e Desenvolvimento de Sistemas - Uniasselvi (Trancado no 4º semestre)<br>
-
+            <span>
+                <ul>
+                    <li>2024 - Pós-graduação em Gestão em Tecnologia - Uniasselvi</li> <br>
+                    <li> 2022 - MBA em Project Management - Uniasselvi </li> <br>
+                    <li> 2021 - Graduação em Comércio Exterior - Unisociesc</li> <br>
+                    <li>2019 - Bacharelado em Análise e Desenvolvimento de Sistemas - Uniasselvi (Trancado no 4º
+                        semestre)
+                    </li> <br>
+                </ul>
+            </span>
             <h3><b><u>Experiências Profissionais</u></b></h3>
 
             <b>HRSS Team Leader - Capgemini Business Services (1 ano e 10 meses) </b><br>
@@ -94,15 +119,11 @@
     </main>
     </div>
     <div class="footer">
-    <footer>
-        &copy; 2024 - Criado por Franciely Camargo.
-    </footer>
-</div>
+        <footer>
+            &copy; 2024 - Criado por Franciely Camargo.
+        </footer>
+    </div>
 </body>
-
-
-
-</html>
 
 
 
